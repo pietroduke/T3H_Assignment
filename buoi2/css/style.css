@@ -2,25 +2,38 @@
     font-family: 'Imperial Script', cursive;
 }
 .header {
-    height: 150px;
+    height: 300px;
     width: 800px;
-    background-image: url("../img/trinity.jpg");
+    /* background-image: url("../img/imgbanner.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    /* background-color: #666; */
-    /* 3 dòng dưới dành cho căn chỉnh center header */
+    background-repeat: no-repeat; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .title {
-    color: white;
+    color: rgb(15, 236, 225);
     font-size: 36px;
     /* text-align: center;
     margin-top: 0%; */
 }
+.header .img_banner, .header div{
+    width: 100%;
+    height: 100%;
+}
 
+.header div{
+    position: relative;
+}
+
+.header .title{
+    position: absolute;
+    z-index: 50;
+    top: 25%;
+    left: 40%;
+}
 .main {
     height: 450px;
     width: 800px;
